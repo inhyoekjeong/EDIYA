@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.EDIYA{
+	margin: auto;
+	width: 100%;
+}
+
+.ediya_nav{
+	z-index : 10;
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+
+.ediya_slide{
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+.ediya_slide2{
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+.ediya_dreamfactory{
+	position: relative;
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+
+.ediya_menu{
+	position: relative;
+	width: 100%;
+	height: 500px;
+} 
+
+.ediya_customer{
+	width: 100%;
+	height: 450px;
+}
+
+.ediya_lab{
+	width: 100%;
+	height: 800px;
+}
+
+.ediya_sns{
+	width: 100%;
+	height: 350px; 
+}
+
+.ediya_footer{
+	width: 100%;
+}
+
+
+
+
+
+
+

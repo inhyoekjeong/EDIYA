@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div.sns{
+	height: 350px;
+	text-align: center;
+}
+
+div.sns>h2{
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+div.sns>hr{
+	margin : auto;
+	width : 50px;
+}
+
+div.sns>h3{ 
+	padding-top: 30px;
+	font-size: 25px;
+	font-weight: 100;
+}

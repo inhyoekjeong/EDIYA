@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+div.lab01{
+	
+	width: 100%;
+	height: 800px;
+	background: url("../image/lab01_bg.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+div.lab01>h2{
+	padding-top : 120px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 300;
+	color: #fff;
+}
+
+div.lab01>h2>em{
+	font-style: normal;
+	font-weight: bold;
+}
+
+div.lab01>h3{
+	padding-top : 20px;
+	text-align: center;
+	font-size: 27px;
+	font-weight: 500;
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+div.lab01>hr{
+	width: 100px;
+	border-color: #1f76e4;
+	margin: auto;
+}
+
+div.lab01>div.lab_con{
+	margin : auto;
+	width : 100%;
+	background: url("../image/lab01_line.png");
+	background-position: 50% 40%;
+	background-repeat: no-repeat;
+	padding-top: 400px;
+}
+
+div.lab01>div.lab_con>ul{
+	position: relative;
+    display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	margin-bottom: 200px;
+}
+div.lab01>div.lab_con>ul>li{
+	list-style: none;
+}
+
+div.lab01>div.lab_con>ul>li:nth-child(1)>a{
+	display: block;
+	background: url("../image/lab01_icon1.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 130px;
+	text-align: center;
+	text-decoration:none;
+	color: #fff;
+}
+
+div.lab01>div.lab_con>ul>li>a>span{
+	display: block;
+    padding-top: 130px;
+    font-size: 16px;
+    font-weight: 600;
+}
+div.lab01>div.lab_con>ul>li:nth-child(1){
+	position:absolute;
+	bottom:90px;
+	left: 360px;
+}
+div.lab01>div.lab_con>ul>li:nth-child(2){
+	position:absolute;
+	bottom: 150px;
+}
+div.lab01>div.lab_con>ul>li:nth-child(3){
+    position: absolute;
+    bottom: 80px;
+    right: 370px; 
+}
+
+
+div.lab01>div.lab_con>ul>li:nth-child(2)>a{
+	display: block;
+	background: url("../image/lab01_icon2.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 130px;
+	text-align: center;
+	text-decoration:none;
+	color: #fff;
+}
+
+div.lab01>div.lab_con>ul>li:nth-child(3)>a{
+	display: block;
+	background: url("../image/lab01_icon2.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 130px;
+	text-align: center;
+	text-decoration:none;
+	color: #fff;
+}
+

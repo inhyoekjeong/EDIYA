@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+div.factory{
+	width: 100%;
+	height: 450px;
+	background: url("../image/factory_bg.gif");
+	overflow: hidden;
+}
+
+div.factory>div.factory_con>img{
+	padding-left: 150px;
+	width: 800px;
+	padding-top: 50px;
+}
+
+div.factory>div.factory_con{
+	position: absolute;
+}
+
+div.factory>div.factory_con>h2{
+	text-indent : 150px;
+	padding-top : 15px;
+	padding-bottom : 30px;
+	font-weight: 300;
+	font-size: 30px;
+} 
+
+div.factory>div.factory_con>h2>em{
+	text-indent : 150px;
+	font-style: normal;
+	font-weight: 900;
+    color: #fff;
+}
+
+div.factory>div.factory_con>h3{
+	text-indent : 150px;
+	font-weight: 600;
+	color: #fff;
+}
+
+div.factory>div.factory_con>div.btn{
+	padding-top : 50px;
+	margin-left: 150px;
+	width: 400px;
+}
+
+div.factory>div.factory_con>div.btn>a{
+	display: inline-block;
+	height : 40px;
+	line-height : 40px;
+	width: 150px;
+	text-decoration:none;
+	text-align : center;
+	color: #fff;
+	border: 1px solid #fff;
+	font-weight: bold;
+}
+
+div.factory>div.factory_con>div.btn>a:hover{
+	background: #fff;
+	color: #000;
+}
+
+div.factory>div.factory_img>img{
+	position: absolute;
+	right: -300px;
+	padding-top: 30px;
+	bottom: 0;
+}
+
+
+
+
+

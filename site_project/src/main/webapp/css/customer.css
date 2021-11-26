@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+div.customer{
+	width: 100%;
+	height: 450px;
+	background: url("../image/customer_bg.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+div.customer>div.customer_con{
+	max-width: 1180px;
+	float: right;
+	padding-right: 100PX;
+}
+
+div.customer>div.customer_con>h2{
+	text-align : left;
+	font-weight : 300;
+	font-size : 40px;
+	font-style : normal;
+	position : relative;
+	color: #fff;
+	padding-top : 100px;
+	padding-right: 100px; 
+}
+
+div.customer>div.customer_con>h3{
+	text-align : left;
+	font-weight : 500;
+	font-size : 17px;
+	padding-right: 100px; 
+	color: #fff;
+	padding-top: 50px;
+}
+div.customer>div.customer_con>div.customer_btn{
+	padding-top : 30px;
+	display: flex;
+	flex-direction:row; 
+}
+
+div.customer>div.customer_con>div.customer_btn>a{
+	text-decoration : none;
+	width : 180px;
+	height : 50px;
+	line-height : 50px;
+	color : #fff;
+	border : 1px solid #fff;
+	font-weight: bold;
+}
+
+div.customer>div.customer_con>div.customer_btn>a:hover{
+	background: #fff;
+	color: #000;
+}
+
+
+
